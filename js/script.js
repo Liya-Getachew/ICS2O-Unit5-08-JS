@@ -16,8 +16,8 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
+ * This function calculates the quotient of the user's division problem using subtraction.
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  document.getElementById("difference").innerHTML = "<p>Hello, World!</p>"
 }
