@@ -19,5 +19,18 @@ if (navigator.serviceWorker) {
  * This function calculates the quotient of the user's division problem using subtraction.
  */
 function myButtonClicked() {
-  document.getElementById("difference").innerHTML = "<p>Hello, World!</p>"
+  const num1 = parseInt(document.getElementById("number1").value)
+  const num2 = parseInt(document.getElementById("number2").value)
+  let counter = 0
+  let remainder = num1
+
+  if (num1 >  0 && num2 > 0) {
+    while (remainder + 1 > num2) {
+      remainder -= num2
+      counter++
+    }
+    document.getElementById("difference").innerHTML = num1 + " ÷ " + num2 + " = " + counter + " R " + remainder
+  } else {
+document.getElementById("difference").innerHTML = "Uh oh- only enter positive numbers above 0, thanks!"
+  }
 }
