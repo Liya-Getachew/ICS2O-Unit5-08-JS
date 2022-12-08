@@ -24,13 +24,15 @@ function myButtonClicked() {
   let counter = 0
   let remainder = num1
 
-  if (num1 >  0 && num2 > 0) {
+  if (num1 > 0 && num2 > 0) {
     while (remainder + 1 > num2) {
       remainder -= num2
       counter++
     }
-    document.getElementById("difference").innerHTML = num1 + " ÷ " + num2 + " = " + counter + " R " + remainder
+    document.getElementById("difference").innerHTML =
+      num1 + " ÷ " + num2 + " = " + counter + " R " + remainder
   } else {
-document.getElementById("difference").innerHTML = "Uh oh- only enter positive numbers above 0, thanks!"
+    document.getElementById("difference").innerHTML =
+      "Uh oh- only enter positive numbers above 0, thanks!"
   }
 }
