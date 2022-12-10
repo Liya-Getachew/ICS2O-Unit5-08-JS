@@ -37,7 +37,7 @@
                 <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="5">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="if&amp;nbsp;&lt;br&gt;num1&amp;gt; 0&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;num2 &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                <mxCell id="15" value="if&amp;nbsp;&lt;br&gt;num1 &amp;gt;&amp;nbsp; 0&amp;nbsp;&lt;br&gt;&amp;amp;&amp;amp;&lt;br&gt;num2 &amp;gt; 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="290" y="550" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" style="edgeStyle=none;html=1;entryX=0.557;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="24">
@@ -46,7 +46,7 @@
                 <mxCell id="29" style="html=1;entryX=1;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="27">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="while&lt;br&gt;remainder &amp;gt;&lt;br&gt;num2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="17" value="while&lt;br&gt;remainder + 1&amp;nbsp;&amp;gt;&lt;br&gt;num2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
                     <mxGeometry x="150" y="550" width="100" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=elbowEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="6">
@@ -56,7 +56,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="num1 +&quot; ÷ &quot;&lt;br&gt;&amp;nbsp;+ num2 + &quot; = &quot; + &lt;br&gt;counter + &lt;br&gt;&quot; R &quot; + remainder" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="24" value="num1 + &quot; ÷ &quot;&lt;br&gt;&amp;nbsp;+ num2 +&amp;nbsp; &quot; = &quot; + &lt;br&gt;counter + &lt;br&gt;&quot; R &quot; + remainder" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="120" y="700" width="140" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="27" target="28">
